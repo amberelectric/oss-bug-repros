@@ -1,0 +1,8 @@
+service: repro
+provider:
+  name: aws
+  runtime: nodejs20.x
+plugins: ${file(./shared.yml):plugins}
+functions:
+  hello:
+    handler: src/hello.handler

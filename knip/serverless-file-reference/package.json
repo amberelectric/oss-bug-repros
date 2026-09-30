@@ -1,0 +1,13 @@
+{
+  "name": "knip-serverless-file-repro",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "knip": "6.38.0",
+    "serverless": "4.4.0",
+    "serverless-offline": "14.0.0"
+  },
+  "scripts": {
+    "deploy": "serverless deploy"
+  }
+}
